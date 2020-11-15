@@ -1,0 +1,177 @@
+/* menu */
+*{
+    margin: 0;
+    padding: 0;
+}
+.fix-width{
+    width: 1270px;
+    margin: auto;
+}
+.fixspace::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.menu{
+    background: darkblue;
+}
+img{
+    max-width: 100%;
+}
+.heading-left{
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+.heading-left img{
+    width: 87px;
+    height: auto;
+}
+.heading-right{
+    float: right;
+    width: 70%;
+}
+.heading-right ol{
+    text-align: right;
+}
+.heading-right ol li{
+    list-style: none;
+    display: inline-block;
+    margin-left: -4px;
+}
+.heading-right ol li a{
+    color: wheat;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    line-height: 48px;
+    border-left: 1px solid wheat;
+    padding: 0px 40px;
+}
+.heading-right ol li a:hover{
+    background: #487eb0;
+    transition: 0.4s;
+}
+/* banner */
+.banner{
+    background: url(https://keighleycollege.ac.uk/wp-content/uploads/2020/09/KC_0011-Apprenticeship-Web-Banner-Background-1300x600-V3.jpg) no-repeat center;
+    padding: 115px 0px;
+    background-size: cover;
+}
+.caption h1 {
+    font-size: 32px;
+    background: #487eb093;
+    display: inline-block;
+    padding: 10px 90px;
+    border-radius: 10px;
+    margin-left: 177px;
+   
+}
+.caption h2 {
+    text-align: center;
+    font-size: 28px;
+    background: #7f8fa68f;
+    margin: 21px 393px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 85px;
+    
+}
+.caption h1:hover{
+    transition: 0.4s;
+    cursor: pointer;
+    transform: scale(1.1) skew(-19deg, 0deg);
+    
+}
+.caption h2:hover{
+    transform: scale(1.1) skew(-19deg, 0deg);
+    transition: 0.4s;
+    cursor: pointer;
+}
+/* services */
+.service{
+    margin-top: 69px;   
+}
+h1.order {
+    text-align: center;
+    position: relative;
+    top: -34px;
+    left: 480px;
+    font-size: 38px;
+    background: aquamarine;
+    width: 270px;
+    border-radius: 10px;
+}
+.product{
+    float: left;
+    width: 33.3%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;
+}
+.product span{
+    display: inline-block;
+    background: #686de0;
+    height: 46px;
+    width: 70px;
+    font-size: 30px;
+    line-height: 44px;
+    border-radius: 23px 0;
+    margin: 10px;
+}
+.product p{
+    font-size: 18px;
+    padding: 10px;
+}
+/* blog */
+.blog-left {
+    float: left;
+    width: 70%;
+    
+}
+.blog-notification {
+    float: left;
+    width: 25%;
+}
+.blog-notification ol{
+    margin: 42px 108px;
+    list-style: none;
+}
+.blog-notification ol li::before{
+    content: "\f0e0";
+    font-family: "Font Awesome 5 Free";
+    font-size: 15px;
+   margin-right: 10px;
+    color: #2c3e50;
+}
+.div2 img {
+    height: auto;
+    width: 100px;
+    float: left;
+    margin: 10px;
+}
+.div1 img {
+    height: auto;
+    width: 100px;
+    float: left;
+    margin: 10px;
+}
+.div1 p {
+    margin-top: 42px;
+}
+.div2 p{
+    margin-top: 10px;
+}
+h1.abb {
+    position: relative;
+    bottom: -35px;
+    left: 85px;
+}
+/* footer */
+.footer{
+    text-align: center;
+    background: #535c68;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+}
